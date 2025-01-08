@@ -1,0 +1,30 @@
+1. pygame.KEYDOWN
+Loại sự kiện được dùng để xử lý khi một phím trên bàn phím được nhấn xuống.
+2. pygame.KEYUP
+Loại sự kiện được sử dụng khi phím được nhả ra (không thấy trong đoạn mã này nhưng thường dùng chung với KEYDOWN).
+3. pygame.QUIT
+Loại sự kiện được sử dụng để thoát khỏi ứng dụng khi nhấn nút "x" đóng cửa sổ.
+4. pygame.MOUSEBUTTONDOWN
+Loại sự kiện xử lý khi chuột được nhấn.
+5. pygame.draw.rect()
+Dùng để vẽ một hình chữ nhật. Ở đây được dùng để hiển thị khung thông báo khi người chơi thắng:
+python
+pygame.draw.rect(screen, 'green', [205, 150, 400, 100], 0, 10)
+6. pygame.mixer.music.set_volume()
+Điều chỉnh âm lượng của nhạc nền trò chơi. Ở đây được sử dụng với các mức Low, Medium, và High.
+7. pygame.image.load()
+Dùng để tải hình ảnh từ tệp. Ví dụ:
+python
+background = pygame.image.load(r'picture\mainbackground.png')
+8. pygame.font.Font.render()
+Tạo văn bản để hiển thị trên màn hình. Ví dụ:
+python
+win_text1 = font.render('You Win!', True, 'white')
+9. pygame.mouse.get_pos()
+Trả về tọa độ vị trí hiện tại của con trỏ chuột.
+10. pygame.display.update()
+Cập nhật màn hình hiển thị, làm mới giao diện trò chơi.
+11. pygame.event.get()
+Lấy danh sách tất cả các sự kiện xảy ra (như nhấn phím, nhấn chuột, hoặc thoát ứng dụng).
+12. pygame.quit()
+Thoát và đóng cửa sổ trò chơi, kết thúc chương trình.

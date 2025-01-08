@@ -8,7 +8,7 @@ SCREENHEIGHT=540
 
 # Tạo biến point
 point0=pygame.image.load(r'picture\0.png')
-point2=pygame.image.load(r'picture\2.png')
+point2=pygame.image.load(r'picture\hinh2.png')
 point4=pygame.image.load(r'picture\4.png')
 point8=pygame.image.load(r'picture\8.png')
 point16=pygame.image.load(r'picture\16.png')
